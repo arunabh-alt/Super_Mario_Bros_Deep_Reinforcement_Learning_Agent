@@ -1,0 +1,11 @@
+torch==1.10.0
+torchvision==0.11.1
+torchaudio==0.10.0
+
+gym==0.21.0
+swig
+box2d-py
+gymnasium
+pyglet==1.5.11
+stable-baselines3[extra]==1.8.0
+gym-super-mario-bros==7.3.0
