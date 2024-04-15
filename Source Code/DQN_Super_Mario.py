@@ -21,6 +21,9 @@
 #           pip install pyglet==1.5.11
 #           pip install stable-baselines3[extra]==1.8.0
 #           pip install gym-super-mario-bros==7.3.0
+
+#  To run the code use this command line - python  DQN_Super_Mario.py (test|train) DQN <seed_number>
+
 import sys  # Importing sys module to access command-line arguments.
 import gym  # Importing gym module for creating reinforcement learning environments.
 import pickle  # Importing pickle module for serializing and deserializing Python objects.
