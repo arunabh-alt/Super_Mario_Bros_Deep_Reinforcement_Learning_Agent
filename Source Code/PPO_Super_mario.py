@@ -76,9 +76,10 @@ model = PPO("CnnPolicy", environment,
             seed=seed,
             learning_rate=learning_rate,
             gamma=gamma,
+            n_steps = 1024,
             n_epochs=10,  # Adjust this value
             ent_coef=0.02,  # Adjust this value
-            batch_size=128,  # Adjust this value
+            batch_size=1024,  # Adjust this value
             verbose=1)
 
 # Train the agent or load a pre-trained one
